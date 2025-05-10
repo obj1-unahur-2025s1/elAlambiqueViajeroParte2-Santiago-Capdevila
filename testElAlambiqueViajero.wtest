@@ -1,4 +1,7 @@
 import elAlambiqueViajero.*
+import ciudades.*
+import vehiculos.*
+
 test "luke cuenta cuando va de viaje"{
     luke.viajar(paris)
     assert.equals(1, luke.cantidadViajes())
